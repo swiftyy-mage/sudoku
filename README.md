@@ -2,7 +2,7 @@
 
 An implementation of the following algorithm:
 
-All possibilities true for all squares which ave no value
+	All possibilities true for all squares which have no value
 
 
 	while True:
