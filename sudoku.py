@@ -401,7 +401,7 @@ class Grid:
 
         '''
 
-        return f"\n\n		    {self.cart_0_0.value}  |  {self.cart_1_0.value}\
+        return f"\n\n	       {self.cart_0_0.value}  |  {self.cart_1_0.value}\
   |  {self.cart_2_0.value}  |  {self.cart_3_0.value}  |  {self.cart_4_0.value}\
   |  {self.cart_5_0.value}  |  {self.cart_6_0.value}  |  {self.cart_7_0.value}\
   |  {self.cart_8_0.value}  \n\
