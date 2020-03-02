@@ -1,6 +1,7 @@
 # sudoku
 
-An implementation of the following algorithm:
+An implementation of the following algorithm.
+The term subgrid be used when talking generall about a row, column, or box.
 
 	All possibilities true for all squares which have no value
 
