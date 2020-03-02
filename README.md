@@ -69,5 +69,5 @@ The term subgrid will be used when talking generally about a row, column, or box
 				are members of the same row or column:
 					remove this possibility from all other squares 
 					in this row or column, return start
-	brute force a solution
+		brute force a solution
 		
