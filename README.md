@@ -30,8 +30,7 @@ The term subgrid will be used when talking generally about a row, column, or box
 					remove possibility from square.
 					return start
 					
-			if only one possibility:
-			
+			if only one possibility:			
 				square value = possibility
 				return start
 				
