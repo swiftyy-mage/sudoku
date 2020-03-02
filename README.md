@@ -28,7 +28,7 @@ An implementation of the following algorithm:
 		for i in range(2,9):
 			for subgrid in rows + columns + boxes:
 			
-				if there exists i squares with exactly i 
+				if there exist i squares with exactly i 
 				identical possibilities in subgrid:
 					remove these possibilities from all other
 					squares in subgrid, return start
