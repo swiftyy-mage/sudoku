@@ -13,7 +13,6 @@ An implementation of the following algorithm:
 					remove possibility from square.
 					return start
 					
-		for square in grid:
 			if only one possibility:
 			
 				square value = possibility
