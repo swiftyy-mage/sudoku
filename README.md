@@ -4,7 +4,7 @@ When I was nearly done with this, I realised that `identical_possibilities` is t
 
 # How to use
 
-To solve a particular sudoku, type in the starting values (0 taking the place of no value) into a single line of a document, save with the extension `.sdk` . Then run:
+To solve a particular sudoku, type in the starting values (0 taking the place of no value) into a single line of a document, save with the extension `.sdk` . Should not end with a new line. Then run:
 
     python sudoku.py <path/to/document.sdk> 
 
