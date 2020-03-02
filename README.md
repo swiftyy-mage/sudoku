@@ -15,7 +15,7 @@ To solve multiple sudokus one after another, simply add more rows to your docume
     
 I included sample_sudoku.sdk which contains 3 sudokus so you can test it.
 
-#The Algorithm
+# The Algorithm
 
 The term subgrid will be used when talking generally about a row, column, or box.
 
