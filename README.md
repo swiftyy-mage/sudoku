@@ -34,7 +34,7 @@ The term subgrid will be used when talking generally about a row, column, or box
 				square value = possibility
 				return start
 				
-		for subgrid (the rows, columns, boxes) in grid:
+		for subgrid in grid:
 			for possibility not determined in subgrid:
 			
 				if possibility is only possible in one square in subgrid:
@@ -42,7 +42,7 @@ The term subgrid will be used when talking generally about a row, column, or box
 					return start
 					
 		for i in range(2,9):
-			for subgrid in rows + columns + boxes:
+			for subgrid in grid:
 			
 				if there exist i squares with exactly i 
 				identical possibilities in subgrid:
@@ -54,7 +54,7 @@ The term subgrid will be used when talking generally about a row, column, or box
 					remove all other possibilities from these
 					x squares, return start
 					
-		for subgrid in rows + columns:
+		for subgrid in grid:
 			for possibilities not yet determined in subgrid:
 			
 				if this possibility is only found in squares which are
