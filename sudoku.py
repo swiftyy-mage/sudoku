@@ -151,6 +151,7 @@ class Grid:
         For those possibilities not yet determined in a subgrid, if that possibility
         is only valid for one Square, then to the Squares value and possibilities,
         assign this possibility and return True. Else, return False.
+
         '''
 
         not_determined = tuple(
@@ -177,6 +178,7 @@ class Grid:
         causing this method to return True, causing the entire loop to start at the
         beginning at self.initial_checks. If all checks are completed and nothing is
         found, return False and the brute forcing method will solve the sudoku.
+
         '''
 
         for i, subgrid in product(range(2, 9), self.rows + self.cols + self.boxes):
@@ -255,6 +257,7 @@ class Grid:
         If there exist i Squares in subgrid which share i possibilities not found in
         any other Square in subgrid, then remove all other possibilities from the i 
         Squares, return True. Else, return False.
+
         '''
 
         not_determined = tuple(square for square in subgrid if square.value == 0)
@@ -395,6 +398,7 @@ class Grid:
 
         '''
         Defines the printable string representation.
+
         '''
 
         return f"\n\n		  {self.cart_0_0.value}  |  {self.cart_1_0.value}\
